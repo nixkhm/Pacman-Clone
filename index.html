@@ -1,0 +1,48 @@
+<style>
+  html {
+    height: 100vh;
+    align-items: flex-start;
+    display: flex;
+    flex-direction: column-reverse;
+    flex-wrap: wrap;
+  }
+
+  body {
+    padding: 10px 20px;
+    width: 100%;
+    height: 100vh;
+    background-color: black;
+    position: fixed;
+    top: 20;
+    bottom: 0;
+    left: 300;
+  }
+
+  p {
+    color: white;
+    font-family: "Press Start 2P", cursive;
+    font-size: 30px;
+    margin-bottom: 6px;
+  }
+</style>
+
+<!DOCTYPE html>
+<html>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link
+    href="https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap"
+    rel="stylesheet"
+  />
+  <head>
+    <link rel="SHORTCUT ICON" href="img/favicon.ico" />
+    <title>Nick Master's PacMan Clone</title>
+  </head>
+  <body>
+    <section>
+      <p><span>Score: </span><span id="score">0</span></p>
+      <canvas></canvas>
+    </section>
+  </body>
+  <script src="index.js"></script>
+</html>
